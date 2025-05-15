@@ -1,0 +1,31 @@
+site_name: AWS MCP Servers
+site_url: https://awslabs-mcp.github.io
+
+repo_name: 'awslabs-mcp/awslabs-mcp'
+repo_url: 'https://github.com/awslabs-mcp/awslabs-mcp'
+copyright: '&copy; Amazon Web Services, Inc. or its affiliates. All rights reserved.'
+
+theme:
+  name: material
+  logo: images/logo.png
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.instant
+  palette:
+    # Palette toggle for light mode
+    - scheme: dracula
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - privacy
+  - search
+  - include-markdown
+nav:
+  - Home: index.md
